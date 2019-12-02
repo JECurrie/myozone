@@ -2,7 +2,7 @@ class HomeController < ApplicationController
   def index
   	require 'net/http'
   	require 'json'
-  	@url = 'http://www.airnowapi.org/aq/observation/zipCode/current/?format=application/json&zipCode=89129&distance=0&API_KEY=7350F3D0-45A3-49C6-A59A-DA811A482353' 
+  	@url = 'http://www.airnowapi.org/aq/observation/zipCode/current/?format=application/json&zipCode=20002&distance=0&API_KEY=7350F3D0-45A3-49C6-A59A-DA811A482353' 
   	@uri = URI(@url)
   	@response = Net::HTTP.get(@uri)
  		@output = JSON.parse(@response)

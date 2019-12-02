@@ -23,6 +23,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootstrap', '~> 4.3', '>= 4.3.1'
 gem 'jquery-rails'
 gem 'json', '~> 2.2'
+gem 'rake', '~> 12.3.2' 
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -38,8 +39,8 @@ end
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
-  # gem 'sqlite3', '< 1.4'
-  gem 'sqlite3', git: "https://github.com/larskanis/sqlite3-ruby", branch: "add-gemspec"
+  gem 'sqlite3', '< 1.4'
+  ##gem 'sqlite3', git: "https://github.com/larskanis/sqlite3-ruby", branch: "add-gemspec"
   gem 'web-console', '>= 3.3.0'
 end
 
