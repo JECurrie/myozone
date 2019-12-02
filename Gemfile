@@ -25,6 +25,7 @@ gem 'jquery-rails'
 gem 'json', '~> 2.2'
 gem 'rake', '~> 12.3.2' 
 gem "rubyzip", ">= 1.3.0"
+gem "nokogiri", ">= 1.10.4"
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
