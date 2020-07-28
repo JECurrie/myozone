@@ -22,7 +22,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'bootstrap', '~> 4.3', '>= 4.3.1'
 gem 'jquery-rails'
-gem 'json', '~> 2.2'
+gem 'json', '~> 2.3'
 gem 'rake', '~> 12.3.2' 
 gem "rubyzip", ">= 1.3.0"
 gem "nokogiri", ">= 1.10.4"
